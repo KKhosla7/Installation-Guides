@@ -42,6 +42,11 @@ First Message
 Second Message
 Third Message
 ```
+## List Of Topics Created
+
+You can also get the list of topics created
+
+`$ kafka-topics --list --zookeeper localhost:2181`
 
 ## Notes
 
