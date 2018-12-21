@@ -20,13 +20,13 @@ This will print the version of Git installed on your machine.
 2. Go to your home directory by typing cd ~/
 3. Type the following command `$ ssh-keygen -t rsa`
 
-* This will prompt you to enter a filename to store the key
-* Just press enter to accept the default filename (/Users/you/.ssh/id_rsa)
-* Then it will ask you to create a passphrase. This is optional, either create a passphrase or press enter for no passphrase
+- This will prompt you to enter a filename to store the key
+- Just press enter to accept the default filename (/Users/you/.ssh/id_rsa)
+- Then it will ask you to create a passphrase. This is optional, either create a passphrase or press enter for no passphrase
 
 4. When you press enter, two files will be created
-* ~/.ssh/id_rsa
-* ~/.ssh/id_rsa.pub
+- ~/.ssh/id_rsa
+- ~/.ssh/id_rsa.pub
 5. Your public key is stored in the file ending with .pub, i.e. ~/.ssh/id_rsa.pub
 
 # How to access and copy public SSH key
